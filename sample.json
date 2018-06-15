@@ -1,0 +1,50 @@
+{
+  "id": "da910ac7-f677-4133-96ee-4d79ff145485",
+  "timestamp": "2018-02-05T21:29:14.771Z",
+  "lang": "en",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "Colorado",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "geo-state-us": "Colorado"
+    },
+    "contexts": [
+      {
+        "name": "expecting_state",
+        "parameters": {
+          "Plan_Name.original": "Dental Prime Plan A?",
+          "Key_Word": "deductible",
+          "geo-state-us": "Colorado",
+          "Key_Word.original": "deductible",
+          "Plan_Name": "Dental Prime Plan A",
+          "geo-state-us.original": "Colorado"
+        },
+        "lifespan": 4
+      }
+    ],
+    "metadata": {
+      "intentId": "372f8581-aec1-4884-bd30-731054e2c746",
+      "webhookUsed": "false",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "Dental - Deductible - Receive State"
+    },
+    "fulfillment": {
+      "speech": "",
+      "messages": [
+        {
+          "type": 0,
+          "speech": ""
+        }
+      ]
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success",
+    "webhookTimedOut": false
+  },
+  "sessionId": "958aba95-c704-4605-b15b-25242ff20470"
+}
