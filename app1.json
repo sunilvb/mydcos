@@ -15,7 +15,7 @@
   "container": {
     "type" : "DOCKER",
     "docker": {
-      "image": "mesosphere/dcos-101",
+      "image": "mesosphere/dcos-101:latest",
       "forcePullImage": false,
       "privileged": false,
       "network": "HOST"
